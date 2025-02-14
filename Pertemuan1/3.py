@@ -1,4 +1,7 @@
 niu = int(input("Enter your identification number: "))
+if len(str(niu)) != 6: #there aren't any firm guide to what dtype the niu should be
+    print("Invalid identification number")
+    exit()
 assignmentScore = int(input("Enter your assignment score: "))
 reportScore = int(input("Enter your report score: "))
 
